@@ -29,7 +29,7 @@ const COURSE_DB = [
   { id: "Hist5426",   name: "現代日本政治外交史",            category: "politics", lang: "zh", lastOffered: "113-2" },
   { id: "PS3102",     name: "台灣地區政治經濟發展",          category: "politics", lang: "zh", lastOffered: "113-2" },
   { id: "NtlDev8045", name: "比較政治與中國大陸研究專題",    category: "politics", lang: "zh", chinaStudies: true, lastOffered: "113-2" },
-  { id: "PS7622",     name: "冷戰時期的東亞國際關係專題",    category: "politics", lang: "zh", lastOffered: "113-1" },  // last was 112-2
+  { id: "PS7622",     name: "冷戰時期的東亞國際關係專題",    category: "politics", lang: "zh", lastOffered: "113-1" },
   { id: "NtlDev5335", name: "東亞的獨裁化與民主化",          category: "politics", lang: "en", lastOffered: "113-1" },
   { id: "Prog3001",   name: "日本政治探討",                  category: "politics", lang: "zh", lastOffered: "113-1" },
   { id: "PS4650",     name: "東亞政治",                      category: "politics", lang: "zh", lastOffered: "113-1" },
@@ -65,14 +65,14 @@ const COURSE_DB = [
   { id: "NtlDev7152", name: "中國國家資本主義專題",          category: "politics", lang: "zh", lastOffered: "110-2" },
 
   // ── 東亞經濟 ──
-  { id: "PS7567",     name: "全球化與東亞政經發展專題",      category: "economics", lang: "zh", lastOffered: "114-1" },
+  { id: "PS7567b",    name: "全球化與東亞政經發展專題",      category: "economics", lang: "zh", lastOffered: "114-1" },
   { id: "IB7089",     name: "中國經濟專題研討",              category: "economics", lang: "zh", chinaStudies: true, lastOffered: "114-1" },
   { id: "AGEC7111",   name: "中國經濟",                      category: "economics", lang: "zh", chinaStudies: true, lastOffered: "114-1" },
   { id: "Prog3013",   name: "日本經濟動向分析",              category: "economics", lang: "zh", lastOffered: "113-2" },
   { id: "Prog3008",   name: "日本經濟發展與結構變化",        category: "economics", lang: "zh", lastOffered: "113-1" },
   { id: "ECON3008",   name: "經濟史二",                      category: "economics", lang: "en", lastOffered: "112-2" },
-  { id: "PS7057",     name: "東亞政經發展專題",              category: "economics", lang: "zh", lastOffered: "110-2" },
-  { id: "NtlDev7152", name: "中國國家資本主義專題",          category: "economics", lang: "zh", lastOffered: "110-2" },
+  { id: "PS7057b",    name: "東亞政經發展專題",              category: "economics", lang: "zh", lastOffered: "110-2" },
+  { id: "NtlDev7152b",name: "中國國家資本主義專題",          category: "economics", lang: "zh", lastOffered: "110-2" },
   { id: "NtlDev5213", name: "中國經濟發展與改革專題",        category: "economics", lang: "zh", chinaStudies: true, lastOffered: "109-2" },
   { id: "ECON5153",   name: "國際政治經濟",                  category: "economics", lang: "en", lastOffered: "107-2" },
   { id: "ECON5003",   name: "市場與台灣經濟發展二",          category: "economics", lang: "en", lastOffered: "111-2" },
@@ -87,26 +87,26 @@ const COURSE_DB = [
   { id: "BP7221",     name: "當代亞洲的後殖民空間再現",      category: "society",   lang: "zh", lastOffered: "113-2" },
   { id: "Soc5009",    name: "東亞社會比較研究",              category: "society",   lang: "en", lastOffered: "113-2" },
   { id: "Soc3060",    name: "東亞社會運動",                  category: "society",   lang: "en", lastOffered: "113-1" },
-  { id: "Soc5094",    name: "日本的民主與公民社會",          category: "society",   lang: "zh", lastOffered: "113-1" },
+  { id: "Soc5094b",   name: "日本的民主與公民社會",          category: "society",   lang: "zh", lastOffered: "113-1" },
   { id: "CHIN4073",   name: "東亞越境文學與文化",            category: "society",   lang: "zh", lastOffered: "113-1" },
   { id: "Soc2062",    name: "東亞社會田野研究工作坊",        category: "society",   lang: "zh", lastOffered: "114-1" },
-  { id: "PS5672",     name: "東亞政治經濟專題",              category: "society",   lang: "zh", lastOffered: "114-1" },
-  { id: "PS5715",     name: "兩岸政經互動專題",              category: "society",   lang: "zh", lastOffered: "114-1" },
-  { id: "PS5730",     name: "國際政治經濟學",                category: "society",   lang: "zh", lastOffered: "112-2" },
+  { id: "PS5672b",    name: "東亞政治經濟專題",              category: "society",   lang: "zh", lastOffered: "114-1" },
+  { id: "PS5715b",    name: "兩岸政經互動專題",              category: "society",   lang: "zh", lastOffered: "114-1" },
+  { id: "PS5730b",    name: "國際政治經濟學",                category: "society",   lang: "zh", lastOffered: "112-2" },
   { id: "NtlDev7132", name: "東亞發展研究中的性別視角",      category: "society",   lang: "en", lastOffered: "113-2" },
   { id: "SW7033",     name: "高齡社會與福利政策專題",        category: "society",   lang: "zh", lastOffered: "111-2" },
   { id: "SW5022",     name: "社會企業與創新",                category: "society",   lang: "zh", lastOffered: "111-1" },
-  { id: "PS5676",     name: "中國大陸政治經濟專題",          category: "society",   lang: "zh", chinaStudies: true, lastOffered: "113-2" },
+  { id: "PS5676b",    name: "中國大陸政治經濟專題",          category: "society",   lang: "zh", chinaStudies: true, lastOffered: "113-2" },
   { id: "NtlDev5213b",name: "中國經濟發展與改革專題（研）",  category: "society",   lang: "zh", chinaStudies: true, lastOffered: "109-2" },
   { id: "AGEC7111b",  name: "中國經濟（農）",                category: "society",   lang: "zh", chinaStudies: true, lastOffered: "114-1" },
   { id: "IB7089b",    name: "中國經濟專題研討（管）",        category: "society",   lang: "zh", chinaStudies: true, lastOffered: "114-1" },
   { id: "Soc5013",    name: "東亞政治經濟分析",              category: "society",   lang: "zh", lastOffered: "113-2" },
   { id: "SW3024",     name: "東亞社會政策",                  category: "society",   lang: "zh", lastOffered: "111-1" },
   { id: "COSS5001",   name: "全球在地化：慈善機構在臺灣",    category: "society",   lang: "en", lastOffered: "107-2" },
-  { id: "PS7608",     name: "兩岸政經互動專題（碩）",        category: "society",   lang: "zh", lastOffered: "110-1" },
-  { id: "PS4572",     name: "政治經濟分析",                  category: "society",   lang: "zh", lastOffered: "112-1" },
+  { id: "PS7608b",    name: "兩岸政經互動專題（碩）",        category: "society",   lang: "zh", lastOffered: "110-1" },
+  { id: "PS4572b",    name: "政治經濟分析",                  category: "society",   lang: "zh", lastOffered: "112-1" },
   { id: "JOUR5012",   name: "東亞新聞專題",                  category: "society",   lang: "zh", lastOffered: "112-1" },
-  { id: "PS4643",     name: "東亞各國政治文化經濟",          category: "society",   lang: "zh", lastOffered: "108-1" },
+  { id: "PS4643b",    name: "東亞各國政治文化經濟",          category: "society",   lang: "zh", lastOffered: "108-1" },
   { id: "Anth7082",   name: "東南亞當代議題專題討論",        category: "society",   lang: "zh", lastOffered: "106-1" },
   { id: "Soc3042",    name: "大眾文化與東亞社會",            category: "society",   lang: "zh", lastOffered: "105-2" },
   { id: "Soc3016",    name: "當代中國政治與社會",            category: "society",   lang: "zh", chinaStudies: true, lastOffered: "108-1" },
@@ -127,7 +127,6 @@ const COURSE_DB = [
   { id: "TwLit7165",  name: "日本統治時期臺灣、朝鮮文學比較研究專題", category: "culture", lang: "zh", lastOffered: "113-2" },
   { id: "Music5001",  name: "亞洲音樂文化",                  category: "culture",   lang: "zh", lastOffered: "113-2" },
   { id: "LING5205",   name: "越南語的語言結構與文化",        category: "culture",   lang: "zh", lastOffered: "113-2" },
-
   { id: "NtlDev7092", name: "東亞史專題",                    category: "culture",   lang: "zh", lastOffered: "113-1" },
   { id: "Hist1600",   name: "東亞現代史",                    category: "culture",   lang: "zh", lastOffered: "114-1" },
   { id: "Hist1609",   name: "東亞近代史",                    category: "culture",   lang: "zh", lastOffered: "112-2" },
@@ -177,13 +176,6 @@ const COURSE_DB = [
   { id: "NtlDev7075b",name: "中國大陸法政專題（法）",        category: "law",       lang: "zh", chinaStudies: true, lastOffered: "111-2" },
 ];
 
-// 學期字串轉數字（用於排序，越大越新）
-function semesterToNum(s) {
-  if (!s || s === "000-0") return 0;
-  const [y, t] = s.split("-");
-  return parseInt(y) * 10 + parseInt(t);
-}
-
 const CATEGORIES = {
   politics:  { label: "東亞政治與國際關係", color: "#1a3a5c", light: "#e8f0f8", accent: "#2563eb" },
   economics: { label: "東亞經濟",           color: "#1a4a2e", light: "#e8f5ed", accent: "#16a34a" },
@@ -195,7 +187,7 @@ const CATEGORIES = {
 function computeStatus(selected, creditMap, manualLang) {
   const selectedCredits   = selected.reduce((sum, c) => sum + (creditMap[c.id] || 0), 0);
   const manualLangCredits = manualLang.reduce((sum, c) => sum + (Number(c.credits) || 0), 0);
-  const totalLangCredits  = manualLangCredits; // 清單上已無語言課程，僅計手動登錄
+  const totalLangCredits  = manualLangCredits;
   const engCredits   = selected.filter(c => c.lang === "en").reduce((sum, c) => sum + (creditMap[c.id] || 0), 0);
   const chinaCredits = selected.filter(c => c.chinaStudies).reduce((sum, c) => sum + (creditMap[c.id] || 0), 0);
   const totalRaw     = selectedCredits + manualLangCredits;
@@ -225,6 +217,16 @@ function parseCourseInput(text) {
   return { found, notFound };
 }
 
+function groupOrder(c) {
+  if (c.chinaStudies) return 2;
+  if (c.lang === "en") return 0;
+  return 1;
+}
+
+function isEastAsia(name) {
+  return name.startsWith("東亞") || name.startsWith("東南亞") || name.startsWith("東北亞");
+}
+
 export default function EastAsiaChecker() {
   const [selected, setSelected]       = useState([]);
   const [creditMap, setCreditMap]     = useState({});
@@ -240,29 +242,15 @@ export default function EastAsiaChecker() {
 
   const status = useMemo(() => computeStatus(selected, creditMap, manualLang), [selected, creditMap, manualLang]);
 
-  // 排序邏輯：① 英語授課 → ② 中文授課 → ③ 中國大陸課程
-  // 各組內：東亞開頭課程優先，其次維持原清單順序（以 index 記錄）
   const COURSE_INDEX = Object.fromEntries(COURSE_DB.map((c, i) => [c.id, i]));
-
-  function groupOrder(c) {
-    if (c.chinaStudies) return 2;
-    if (c.lang === "en") return 0;
-    return 1; // zh
-  }
-
-  function isEastAsia(name) {
-    return name.startsWith("東亞") || name.startsWith("東南亞") || name.startsWith("東北亞");
-  }
 
   const sortedDB = useMemo(() => {
     return [...COURSE_DB].sort((a, b) => {
       const gDiff = groupOrder(a) - groupOrder(b);
       if (gDiff !== 0) return gDiff;
-      // 同組內：東亞開頭優先
       const aEA = isEastAsia(a.name) ? 0 : 1;
       const bEA = isEastAsia(b.name) ? 0 : 1;
       if (aEA !== bEA) return aEA - bEA;
-      // 其次維持原清單順序
       return (COURSE_INDEX[a.id] ?? 999) - (COURSE_INDEX[b.id] ?? 999);
     });
   }, []);
@@ -325,24 +313,23 @@ export default function EastAsiaChecker() {
   };
 
   return (
-    <div style={{ fontFamily: "'Noto Serif TC', Georgia, serif", minHeight: "100vh", background: "#f7f5f0", color: "#1a1a1a", WebkitTextFillColor: "initial" }}>
+    <div style={{ fontFamily: "'Noto Serif TC', Georgia, serif", minHeight: "100vh", background: "#f7f5f0", color: "#1a1a1a" }}>
       <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;700&display=swap" rel="stylesheet" />
 
-      {/* Header */}
+      {/* Header — full width, no maxWidth */}
       <div style={{ background: "#1a1a2e", color: "#f0ebe0", padding: "28px 32px 24px", borderBottom: "3px solid #c9a84c" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-          <div style={{ fontSize: 11, letterSpacing: 4, color: "#c9a84c", marginBottom: 6, fontFamily: "monospace" }}>NTU COLLEGE OF SOCIAL SCIENCES</div>
-          <h1 style={{ margin: 0, fontSize: 26, fontWeight: 700, letterSpacing: 1, color: "#f0ebe0" }}>東亞研究學分學程　修課審核試算系統</h1>
-          <div style={{ marginTop: 8, fontSize: 13, color: "#a89880", lineHeight: 1.6 }}>
-            依據 114.04.02 發布設置要點　｜　至少 15 學分・至少 4 英語學分・涵蓋至少 2 領域
-          </div>
-          <div style={{ marginTop: 10, fontSize: 12, color: "#f0c060", background: "rgba(255,255,255,0.07)", borderLeft: "3px solid #c9a84c", padding: "8px 12px", borderRadius: "0 6px 6px 0", lineHeight: 1.7 }}>
-            ⚠️ 試算結果僅供參考，最終認定以學程承辦單位審核為準。
-          </div>
+        <div style={{ fontSize: 11, letterSpacing: 4, color: "#c9a84c", marginBottom: 6, fontFamily: "monospace" }}>NTU COLLEGE OF SOCIAL SCIENCES</div>
+        <h1 style={{ margin: 0, fontSize: 26, fontWeight: 700, letterSpacing: 1, color: "#f0ebe0" }}>東亞研究學分學程　修課審核試算系統</h1>
+        <div style={{ marginTop: 8, fontSize: 13, color: "#a89880", lineHeight: 1.6 }}>
+          依據 114.04.02 發布設置要點　｜　至少 15 學分・至少 4 英語學分・涵蓋至少 2 領域
+        </div>
+        <div style={{ marginTop: 10, fontSize: 12, color: "#f0c060", background: "rgba(255,255,255,0.07)", borderLeft: "3px solid #c9a84c", padding: "8px 12px", borderRadius: "0 6px 6px 0", lineHeight: 1.7 }}>
+          ⚠️ 試算結果僅供參考，最終認定以學程承辦單位審核為準。
         </div>
       </div>
 
-      <div style={{ maxWidth: 1100, margin: "0 auto", padding: "24px 16px", display: "grid", gridTemplateColumns: "1fr 330px", gap: 24 }}>
+      {/* Main layout — full width, no maxWidth */}
+      <div style={{ padding: "24px 16px", display: "grid", gridTemplateColumns: "1fr 330px", gap: 24 }}>
 
         {/* Left */}
         <div>
@@ -488,7 +475,7 @@ export default function EastAsiaChecker() {
           })}
         </div>
 
-        {/* Right: Status Panel */}
+        {/* Right: Status Panel — sticky */}
         <div style={{ position: "sticky", top: 20, alignSelf: "start" }}>
           <div style={{ background: "#1a1a2e", color: "#f0ebe0", borderRadius: 10, padding: 20, marginBottom: 16, border: "2px solid #c9a84c" }}>
             <div style={{ fontSize: 12, letterSpacing: 2, color: "#c9a84c", marginBottom: 12 }}>畢業審核狀態</div>
