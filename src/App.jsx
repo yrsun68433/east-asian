@@ -332,9 +332,12 @@ export default function EastAsiaChecker() {
       <div style={{ background: "#1a1a2e", color: "#f0ebe0", padding: "28px 32px 24px", borderBottom: "3px solid #c9a84c" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <div style={{ fontSize: 11, letterSpacing: 4, color: "#c9a84c", marginBottom: 6, fontFamily: "monospace" }}>NTU COLLEGE OF SOCIAL SCIENCES</div>
-          <h1 style={{ margin: 0, fontSize: 26, fontWeight: 700, letterSpacing: 1, color: "#f0ebe0" }}>東亞研究學分學程　修課審核系統</h1>
+          <h1 style={{ margin: 0, fontSize: 26, fontWeight: 700, letterSpacing: 1, color: "#f0ebe0" }}>東亞研究學分學程　修課審核試算系統</h1>
           <div style={{ marginTop: 8, fontSize: 13, color: "#a89880", lineHeight: 1.6 }}>
             依據 114.04.02 發布設置要點　｜　至少 15 學分・至少 4 英語學分・涵蓋至少 2 領域
+          </div>
+          <div style={{ marginTop: 10, fontSize: 12, color: "#f0c060", background: "rgba(255,255,255,0.07)", borderLeft: "3px solid #c9a84c", padding: "8px 12px", borderRadius: "0 6px 6px 0", lineHeight: 1.7 }}>
+            ⚠️ 試算結果僅供參考，最終認定以學程承辦單位審核為準。
           </div>
         </div>
       </div>
