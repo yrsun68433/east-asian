@@ -236,6 +236,7 @@
   <p class="subtitle">歷年核准與修畢統計 ｜ 105–114 學年度</p>
 </header>
 
+<!-- KPI Cards -->
 <div class="grid">
   <div class="kpi-card" style="--accent-bar: var(--accent);">
     <div class="kpi-label">總核准人數（臺大）</div>
@@ -259,6 +260,7 @@
   </div>
 </div>
 
+<!-- 趨勢折線圖 -->
 <div class="chart-section">
   <h2>▎歷年核准與修畢趨勢</h2>
   <p class="chart-desc">臺大核准人數呈整體上升趨勢；修畢人數自 111 年度起明顯成長，顯示前期核准生陸續完成學習。</p>
@@ -267,6 +269,7 @@
   </div>
 </div>
 
+<!-- 兩欄圖 -->
 <div class="two-col">
   <div class="chart-section">
     <h2>▎每年修畢率</h2>
@@ -284,6 +287,7 @@
   </div>
 </div>
 
+<!-- 院外院內細分 -->
 <div class="chart-section">
   <h2>▎院內 vs 院外細部結構（目前在學 26 人）</h2>
   <p class="chart-desc">院內以大學部為主；院外大學部 8 人、研究所 1 人，系所橫跨日文、歷史、生科、人類、法律、農化、土木等 7 個領域。</p>
@@ -292,6 +296,7 @@
   </div>
 </div>
 
+<!-- 洞察 -->
 <div class="insight-box">
   <h2>📊 關鍵洞察</h2>
   <ul class="insight-list">
@@ -318,7 +323,7 @@
   </ul>
 </div>
 
-<footer>資料來源：東亞研究學分學程委員會會議紀錄 ｜ 105–114 學年度</footer>
+<footer>資料來源：上傳表格 ｜ 分析視覺化由 Claude 生成</footer>
 
 <script>
 const years = ['105','106','107','108','109','110','111','112','113','114'];
@@ -338,9 +343,11 @@ const palette = {
   greenA: 'rgba(44,110,73,0.15)',
 };
 
+// Shared font
 Chart.defaults.font.family = "'Noto Sans TC', sans-serif";
 Chart.defaults.color = '#6b6b6b';
 
+// 1. Trend line chart
 new Chart(document.getElementById('trendChart'), {
   type: 'line',
   data: {
@@ -395,6 +402,7 @@ new Chart(document.getElementById('trendChart'), {
   }
 });
 
+// 2. Rate bar chart
 new Chart(document.getElementById('rateChart'), {
   type: 'bar',
   data: {
@@ -419,6 +427,7 @@ new Chart(document.getElementById('rateChart'), {
   }
 });
 
+// 3. Donut chart
 new Chart(document.getElementById('donutChart'), {
   type: 'doughnut',
   data: {
@@ -440,6 +449,7 @@ new Chart(document.getElementById('donutChart'), {
   }
 });
 
+// 4. Stacked bar
 new Chart(document.getElementById('stackBar'), {
   type: 'bar',
   data: {
